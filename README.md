@@ -27,5 +27,6 @@ Apart from that nothing fancy is used.
 ## What do I need to setup?
 
 The only additional thing you need to setup is a sqlite3 database called punk.db with the following tables ( I will create a short python proggie doing this for you later)
-CREATE TABLE "config" ( `maxop` INTEGER )
-CREATE TABLE "delegations" ( `ID` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `delegator` TEXT NOT NULL, `steempower` INTEGER NOT NULL, `datum` timestamp, `prozent` INTEGER )
+
+- CREATE TABLE "config" ( `maxop` INTEGER )
+- CREATE TABLE "delegations" ( `ID` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `delegator` TEXT NOT NULL, `steempower` INTEGER NOT NULL, `datum` timestamp, `prozent` INTEGER )
